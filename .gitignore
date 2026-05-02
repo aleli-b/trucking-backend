@@ -1,0 +1,59 @@
+# Virtual environments (never commit)
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Tests / coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+*~
+
+# Optional: uncomment if you do not want VS Code settings in git
+# .vscode/
